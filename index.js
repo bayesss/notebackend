@@ -23,6 +23,8 @@ let notes = [
     }
 ]
 
+app.use(express.static('build'))
+
 const cors = require('cors')
 app.use(cors())
 
